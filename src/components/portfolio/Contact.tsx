@@ -67,7 +67,7 @@ export function Contact() {
               { icon: Phone, label: "Phone", value: "+91 8309965133", href: "tel:+918309965133" },
               { icon: MapPin, label: "Location", value: "Hyderabad, India" },
               { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/sushanth81", href: "https://www.linkedin.com/in/sushanth81/" },
-              { icon: Github, label: "GitHub", value: "github.com/sushanth", href: "https://github.com/" },
+              { icon: Github, label: "GitHub", value: "github.com/Sushanth56", href: "https://github.com/Sushanth56" },
             ].map((item) => (
               <li key={item.label} className="flex items-start gap-3">
                 <div className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-surface-2 text-brand-2">

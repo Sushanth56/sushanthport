@@ -19,7 +19,7 @@ export function Footer() {
         </motion.div>
         <div className="flex items-center gap-2">
           {[
-            { icon: Github, href: "https://github.com/", label: "GitHub" },
+            { icon: Github, href: "https://github.com/Sushanth56", label: "GitHub" },
             { icon: Linkedin, href: "https://www.linkedin.com/in/sushanth81/", label: "LinkedIn" },
             { icon: Mail, href: "mailto:chigullapallysushanth563@gmail.com", label: "Email" },
           ].map((s) => (

@@ -108,14 +108,14 @@ export function Contact() {
               <label htmlFor="name" className="mb-1.5 block text-xs font-medium text-muted-foreground">
                 Your name
               </label>
-              <Input id="name" name="name" placeholder="Jane Recruiter" maxLength={100} required
+              <Input id="name" name="name" placeholder="Sushanth Chigullapally" maxLength={100} required
                 className="h-11 bg-surface/60 border-border" />
             </div>
             <div>
               <label htmlFor="email" className="mb-1.5 block text-xs font-medium text-muted-foreground">
                 Email
               </label>
-              <Input id="email" name="email" type="email" placeholder="jane@company.com" maxLength={255} required
+              <Input id="email" name="email" type="email" placeholder="yourname@gmail.com" maxLength={255} required
                 className="h-11 bg-surface/60 border-border" />
             </div>
           </div>

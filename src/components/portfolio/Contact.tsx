@@ -34,7 +34,7 @@ export function Contact() {
     const { name, email, message } = parsed.data;
     const subject = encodeURIComponent(`Portfolio inquiry from ${name}`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
-    window.location.href = `mailto:sushanth.chigullapally@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:chigullapallysushanth563@gmail.com?subject=${subject}&body=${body}`;
     setTimeout(() => {
       setLoading(false);
       toast.success("Opening your email client…");
@@ -63,7 +63,7 @@ export function Contact() {
           </p>
           <ul className="mt-6 space-y-4 text-sm">
             {[
-              { icon: Mail, label: "Email", value: "sushanth.chigullapally@example.com", href: "mailto:sushanth.chigullapally@example.com" },
+              { icon: Mail, label: "Email", value: "chigullapallysushanth563@gmail.com", href: "mailto:chigullapallysushanth563@gmail.com" },
               { icon: Phone, label: "Phone", value: "+91 00000 00000", href: "tel:+910000000000" },
               { icon: MapPin, label: "Location", value: "Hyderabad, India" },
               { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/sushanth", href: "https://linkedin.com/" },

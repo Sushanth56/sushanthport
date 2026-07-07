@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "theme-color", content: "#0a0a12" },
-      { title: "Sushanth Chigullapally — Software Engineer" },
+      { title: "Sushanth Chigullapally — Software Engineer & Java Full Stack Developer" },
       {
         name: "description",
         content:
@@ -87,6 +87,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Sushanth Chigullapally" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Sushanth Chigullapally — Software Engineer & Java Full Stack Developer" },
+      { name: "twitter:title", content: "Sushanth Chigullapally — Software Engineer & Java Full Stack Developer" },
+      { name: "description", content: "Portfolio of Sushanth Chigullapally — Software Engineer specializing in Java, Spring Boot, Microservices, React, AWS, and AI & Data Engineering." },
+      { property: "og:description", content: "Portfolio of Sushanth Chigullapally — Software Engineer specializing in Java, Spring Boot, Microservices, React, AWS, and AI & Data Engineering." },
+      { name: "twitter:description", content: "Portfolio of Sushanth Chigullapally — Software Engineer specializing in Java, Spring Boot, Microservices, React, AWS, and AI & Data Engineering." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/886ef5df-5e01-4738-a588-7950ef979818/id-preview-06a60c23--d4518cd5-9002-4d04-a8bf-e134ac1f8e1d.lovable.app-1783404896572.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/886ef5df-5e01-4738-a588-7950ef979818/id-preview-06a60c23--d4518cd5-9002-4d04-a8bf-e134ac1f8e1d.lovable.app-1783404896572.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

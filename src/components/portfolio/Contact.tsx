@@ -109,7 +109,6 @@ export function Contact() {
                 Your name
               </label>
               <Input id="name" name="name" placeholder="Sushanth Chigullapally" maxLength={100} required
-
                 className="h-11 bg-surface/60 border-border" />
             </div>
             <div>
@@ -117,7 +116,6 @@ export function Contact() {
                 Email
               </label>
               <Input id="email" name="email" type="email" placeholder="yourname@gmail.com" maxLength={255} required
-
                 className="h-11 bg-surface/60 border-border" />
             </div>
           </div>

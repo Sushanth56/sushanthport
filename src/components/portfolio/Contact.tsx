@@ -64,7 +64,7 @@ export function Contact() {
           <ul className="mt-6 space-y-4 text-sm">
             {[
               { icon: Mail, label: "Email", value: "chigullapallysushanth563@gmail.com", href: "mailto:chigullapallysushanth563@gmail.com" },
-              { icon: Phone, label: "Phone", value: "+91 00000 00000", href: "tel:+910000000000" },
+              { icon: Phone, label: "Phone", value: "+91 8309965133", href: "tel:+918309965133" },
               { icon: MapPin, label: "Location", value: "Hyderabad, India" },
               { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/sushanth", href: "https://linkedin.com/" },
               { icon: Github, label: "GitHub", value: "github.com/sushanth", href: "https://github.com/" },
